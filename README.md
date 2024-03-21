@@ -59,5 +59,3 @@ This project makes use of several outstanding tools and resources. A big thank y
 Your Name - [me@jan-obernberger.de](mailto:me@jan-obernberger.de)
 
 Project Link: [https://github.com/lptrm/cpp-dev-env](https://github.com/lptrm/cpp-dev-env)
-
-```
