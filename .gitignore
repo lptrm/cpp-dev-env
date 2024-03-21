@@ -1,0 +1,136 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build folders
+bin/
+obj/
+build/
+debug/
+release/
+x64/
+x86/
+_build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.make
+
+# Benchmark files
+benchmarks/
+
+# Dependency directories
+deps/
+
+# Auto-generated documentation
+docs/html/
+docs/latex/
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Application configuration files
+*.ini
+*.conf
+*.cfg
+
+# Profile data
+*.prof
+
+# Autotools
+autom4te.cache
+aclocal.m4
+autoscan.log
+configure.scan
+config.h.in
+configure
+config.status
+config.log
+config.h
+stamp-h1
+libtool
+ltmain.sh
+missing
+install-sh
+depcomp
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio Code
+# .vscode/
+# *.code-workspace
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+# Vim/Emacs
+*~
+*.swp
+*.swo
+*#
+
+# Backup & Temporary files
+*.bak
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+develop-eggs/
