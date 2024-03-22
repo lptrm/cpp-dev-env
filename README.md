@@ -40,6 +40,12 @@ g++ -std=c++11 -g my-project/my-app.cpp -o hello-world/bin/my-app
 
 Or add a `task` in `.vscode/tasks.json` and then run it via the GUI.
 
+For premake
+```bash
+premake5 gmake2
+make config=debug all
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

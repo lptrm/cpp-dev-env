@@ -3,11 +3,12 @@
 
 using namespace std;
 
-void::Rectangle::Print() const
+void Rectangle::Print() const
 {
-    cout << "(" << x << ", " << y << ", " << height << ", " << width << ")"<< endl; 
+    cout << "(" << x << ", " << y << ", " << height << ", " << width << ")"<< endl;
+    cout << "Flaeche: " << GetArea() << endl;
 }
 
-double::Rectangle::GetArea() const{
+double Rectangle::GetArea() const{
     return height * width;
 }
