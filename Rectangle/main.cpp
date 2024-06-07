@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     RectField* pRectField_1 = new RectField(10);
-    RectField* pRectField_2 = new RectField(*pRectField_1);
+    RectField* pRectField_2 = new RectField(*pRectField_1); //flache Kopie durch default copy Konstruktor
 
     pRectField_1->Print();
     pRectField_2->Print();
