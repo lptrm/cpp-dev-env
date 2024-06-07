@@ -1,4 +1,5 @@
 #include "RectField.h"
+#include <iostream>
 
 RectField::RectField(int anz)
 {
@@ -6,13 +7,6 @@ RectField::RectField(int anz)
     for (int i = 0; i < anzElem; i++)
     {
         pRectField[i] = new Rectangle();
-    }
-}
-RectField::~RectField()
-{
-    for (int i = 0; i < anzElem; i++)
-    {
-        delete pRectField[i];
     }
 }
 void RectField::Set(int index, double x, double y, double height, double width)
@@ -47,4 +41,5 @@ void RectField::Print() const
     {
         pRectField[i]->Print();
     }
+    std::cout << std::endl;
 }
