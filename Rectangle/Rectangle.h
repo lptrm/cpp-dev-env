@@ -20,5 +20,8 @@ public:
     void Print() const;
     double GetArea() const;
 
+    void SetPos(double x, double y);
+    void SetDim(double height, double width);
+
 };
 
